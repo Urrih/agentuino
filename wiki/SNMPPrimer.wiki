@@ -1,5 +1,4 @@
 #summary wiki SNMP Primer
-#labels SNMP
 
 Before getting started with Agentuino it is recommended to familiarize yourself with Simple Network Management Protocol.
 
