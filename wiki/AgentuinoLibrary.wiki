@@ -54,7 +54,7 @@ None.
 = Class Functions =
 
 == SNMP_API_STAT_CODES begin() ==
-The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  See Returns sections for function return information.
+The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  See Returns section for function return information.
 
 === Arguments ===
 None.
@@ -63,7 +63,7 @@ None.
 See SNMP_API_STAT_CODES enumerator for additional information.
 
 == SNMP_API_STAT_CODES begin(char `*`getCommName, char `*`setCommName, uint16_t port) ==
-The begin function initializes the Agent based on supplied arguments and should be placed in the "setup()" function of the implementation sketch file.  See Arguments section for argument definitions.  See Returns sections for function return information.
+The begin function initializes the Agent based on supplied arguments and should be placed in the "setup()" function of the implementation sketch file.  See Arguments section for argument definitions.  See Returns section for function return information.
 
 === Arguments ===
 
