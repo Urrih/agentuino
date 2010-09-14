@@ -58,19 +58,31 @@ Enumerated PDU syntaxes supported.
 == SNMP_VALUE ==
 
 === Properties ===
+
 ==== byte data`[`SNMP_MAX_VALUE_LEN`]` ====
+SNMP value byte array.
+
 ==== size_t size ====
+SNMP value's size.
+
 ==== SNMP_SYNTAXES syntax ====
+SNMP value's syntax type.
+
+See SNMP_SYNTAXES enumerator for additional information.
+
 ==== byte i ====
+Used internally for encoding/decoding functions and should not be used in implementation code.
 
 === Functions & Subroutines ===
 
 ==== void clear(void) ====
+The clear subroutine clear's the value byte array and sets the size to 0.
 
 ==== SNMP_ERR_CODES decode(char `*`value, size_t max_size) ====
 ===== Arguments =====
 ====== value ======
 ====== max_size ======
+
 ===== Returns =====
 See SNMP_ERR_CODES enumerator for additional information.
 
