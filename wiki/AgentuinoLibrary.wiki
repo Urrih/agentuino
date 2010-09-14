@@ -2,11 +2,25 @@
 
 = Introduction =
 
-= Structures =
+= Definitions =
 
-== SNMP_OID ==
+== SNMP_DEFAULT_PORT ==
+Sets the agent's default port for incoming requests (161).
 
-== SNMP_VALUE ==
+== SNMP_MIN_OID_LEN ==
+Sets the minimum object-identifier length (2).
+
+== SNMP_MAX_OID_LEN ==
+Sets the maximum object-identifier length (64).
+
+== SNMP_MAX_NAME_LEN ==
+Sets the maximum community set/get name length (20).
+
+== SNMP_MAX_VALUE_LEN ==
+Sets the maximum pdu value length (64).
+
+== SNMP_MAX_PACKET_LEN ==
+Sets the maximum object-identifier length (SNMP_MAX_VALUE_LEN + SNMP_MAX_OID_LEN + 25).
 
 = Enumerators =
 
@@ -21,6 +35,12 @@
 == SNMP_API_STAT_CODES ==
 
 == SNMP_SYNTAXES ==
+
+= Structures =
+
+== SNMP_OID ==
+
+== SNMP_VALUE ==
 
 = Class Constructors =
 None.
