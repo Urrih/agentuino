@@ -14,10 +14,10 @@ Sets the minimum object-identifier length (2).
 Sets the maximum object-identifier length (64).
 
 == SNMP_MAX_NAME_LEN ==
-Sets the maximum community set/get name length (20).
+Sets the maximum community get/set name length (20).
 
 == SNMP_MAX_VALUE_LEN ==
-Sets the maximum pdu value length (64).
+Sets the maximum PDU value length (64).
 
 == SNMP_MAX_PACKET_LEN ==
 Sets the maximum object-identifier length (SNMP_MAX_VALUE_LEN + SNMP_MAX_OID_LEN + 25).
@@ -25,16 +25,22 @@ Sets the maximum object-identifier length (SNMP_MAX_VALUE_LEN + SNMP_MAX_OID_LEN
 = Enumerators =
 
 == ASN_BER_BASE_TYPES ==
+Enumerated PDU BER base types supported.
 
 == SNMP_PDU_TYPES ==
+Enumerated PDU types supported.
 
 == SNMP_TRAP_TYPES ==
+Enumerated Trap types supported.
 
 == SNMP_ERR_CODES ==
+Enumerated SNMP related error codes.
 
 == SNMP_API_STAT_CODES ==
+Enumerated Application Programmer Interface status codes.
 
 == SNMP_SYNTAXES ==
+Enumerated PDU syntaxes supported.
 
 = Structures =
 
