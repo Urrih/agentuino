@@ -51,7 +51,7 @@ Enumerated PDU syntaxes supported.
 = Class Constructors =
 None.
 
-= Class Functions =
+= Class Functions & Subroutines =
 
 == SNMP_API_STAT_CODES begin() ==
 The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  See Returns section for function return information.
