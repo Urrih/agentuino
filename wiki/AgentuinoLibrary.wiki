@@ -97,6 +97,44 @@ The clear subroutine clear's the value byte array and sets the size to 0.
 ===== Returns =====
 See SNMP_ERR_CODES enumerator for additional information.
 
+==== SNMP_ERR_CODES decode(int32_t `*`value) ====
+===== Arguments =====
+====== value ======
+
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
+==== SNMP_ERR_CODES decode(uint32_t `*`value) ====
+===== Arguments =====
+====== value ======
+
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
+==== SNMP_ERR_CODES encode(SNMP_SYNTAXES syn, const char `*`value) ====
+===== Arguments =====
+====== syn ======
+====== value ======
+
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
+==== SNMP_ERR_CODES encode(SNMP_SYNTAXES syn, const int32_t value) ====
+===== Arguments =====
+====== syn ======
+====== value ======
+
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
+==== SNMP_ERR_CODES encode(SNMP_SYNTAXES syn, const uint32_t value) ====
+===== Arguments =====
+====== syn ======
+====== value ======
+
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
 = Class Constructors =
 None.
 
