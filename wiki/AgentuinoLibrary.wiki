@@ -57,6 +57,23 @@ Enumerated PDU syntaxes supported.
 
 == SNMP_VALUE ==
 
+=== Properties ===
+==== byte data`[`SNMP_MAX_VALUE_LEN`]` ====
+==== size_t size ====
+==== SNMP_SYNTAXES syntax ====
+==== byte i ====
+
+=== Functions & Subroutines ===
+
+==== void clear(void) ====
+
+==== SNMP_ERR_CODES decode(char `*`value, size_t max_size) ====
+===== Arguments =====
+====== value ======
+====== max_size ======
+===== Returns =====
+See SNMP_ERR_CODES enumerator for additional information.
+
 = Class Constructors =
 None.
 
