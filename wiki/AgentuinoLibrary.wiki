@@ -47,7 +47,7 @@ Enumerated PDU syntaxes supported.
 == SNMP_OID ==
 
 === Properties ===
-==== byte data[SNMP_MAX_OID_LEN] ====
+==== byte data`[`SNMP_MAX_OID_LEN`]` ====
 ==== size_t size ====
 
 === Functions & Subroutines ===
