@@ -57,7 +57,7 @@ Size of the Object-Identifier's data byte array.
 === Functions & Subroutines ===
 
 ==== void toString(char `*`buffer) ====
-The toString subroutine converts the Object-Identifier contained in the data byte array , should it's size be greater than zero, and stores it into the buffer argument.
+The toString subroutine converts the Object-Identifier contained in the data byte array , should it's size be greater than zero, and stores it into the supplied buffer argument.
 
 See Arguments for additional information.
 
