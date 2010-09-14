@@ -55,7 +55,27 @@ None.
 
 == SNMP_API_STAT_CODES begin() ==
 
+=== Arguments ===
+None.
+
+=== Returns ===
+Nothing.
+
 == SNMP_API_STAT_CODES begin(char `*`getCommName, char `*`setCommName, uint16_t port) ==
+
+=== Arguments ===
+
+==== getCommName ====
+Get community name.
+
+==== setCommName ====
+Set community name.
+
+==== port ====
+Agent's port to accepts incoming requests.
+
+=== Returns ===
+SNMP_API_STAT_CODES
 
 == void listen(void) ==
 
