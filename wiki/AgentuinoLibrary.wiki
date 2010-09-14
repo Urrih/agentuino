@@ -64,7 +64,7 @@ See Arguments for additional information.
 ===== Arguments =====
 
 ====== buffer ======
-Buffer where the Object-Identifier is converted and stored.
+Buffer where the Object-Identifier is stored.
 
 == SNMP_VALUE ==
 
