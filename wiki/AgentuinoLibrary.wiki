@@ -46,6 +46,15 @@ Enumerated PDU syntaxes supported.
 
 == SNMP_OID ==
 
+=== Properties ===
+==== byte data[SNMP_MAX_OID_LEN] ====
+==== size_t size ====
+
+=== Functions & Subroutines ===
+==== void toString(char `*`buffer) ====
+===== Arguments =====
+====== buffer ======
+
 == SNMP_VALUE ==
 
 = Class Constructors =
