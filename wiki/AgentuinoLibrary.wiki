@@ -1,4 +1,4 @@
-#summary Agentuino library documentation.
+#summary Agentuino Library Documentation.
 
 = Introduction =
 
