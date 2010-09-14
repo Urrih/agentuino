@@ -91,19 +91,31 @@ The listen subroutine executes a delegate subroutine (pointer to a subroutine) w
 See onPduReceive subroutine for additional information on delegate subroutine implementation.
 
 == SNMP_API_STAT_CODES requestPdu(SNMP_PDU `*`pdu) ==
+
 === Arguments ===
+
 ==== pdu ====
+
 === Returns ===
+See SNMP_API_STAT_CODES enumerator for additional information.
 
 == SNMP_API_STAT_CODES responsePdu(SNMP_PDU `*`pdu) ==
+
 === Arguments ===
+
 ==== pdu ====
+
 === Returns ===
+See SNMP_API_STAT_CODES enumerator for additional information.
 
 == void onPduReceive(onPduReceiveCallback pduReceived) ==
+
 === Arguments ===
+
 ==== pduReceived ====
 
 == void freePdu(SNMP_PDU `*`pdu) ==
+
 === Arguments ===
+
 ==== pdu ====
