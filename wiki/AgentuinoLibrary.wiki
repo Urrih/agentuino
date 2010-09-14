@@ -37,7 +37,7 @@ Enumerated Trap types supported.
 Enumerated SNMP related error codes.
 
 == SNMP_API_STAT_CODES ==
-Enumerated Application Programmer Interface status codes.
+Enumerated library Application Programmer Interface status codes.
 
 == SNMP_SYNTAXES ==
 Enumerated PDU syntaxes supported.
@@ -54,14 +54,16 @@ None.
 = Class Functions =
 
 == SNMP_API_STAT_CODES begin() ==
+The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  See Returns sections for function return information.
 
 === Arguments ===
 None.
 
 === Returns ===
-Nothing.
+See SNMP_API_STAT_CODES enumerator for additional information.
 
 == SNMP_API_STAT_CODES begin(char `*`getCommName, char `*`setCommName, uint16_t port) ==
+The begin function initializes the Agent based on supplied arguments and should be placed in the "setup()" function of the implementation sketch file.  See Arguments section for argument definitions.  See Returns sections for function return information.
 
 === Arguments ===
 
@@ -72,10 +74,10 @@ Get community name.
 Set community name.
 
 ==== port ====
-Agent's port to accepts incoming requests.
+Agent's port to accept incoming requests.
 
 === Returns ===
-SNMP_API_STAT_CODES
+See SNMP_API_STAT_CODES enumerator for additional information.
 
 == void listen(void) ==
 
