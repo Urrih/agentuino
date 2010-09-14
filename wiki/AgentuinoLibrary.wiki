@@ -29,7 +29,7 @@ None.
 
 == SNMP_API_STAT_CODES begin() ==
 
-== SNMP_API_STAT_CODES begin(char *getCommName, char *setCommName, uint16_t port) ==
+== SNMP_API_STAT_CODES begin(char '*'getCommName, char '*'setCommName, uint16_t port) ==
 
 == void listen(void) ==
 
