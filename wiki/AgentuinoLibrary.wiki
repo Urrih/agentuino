@@ -54,7 +54,9 @@ None.
 = Class Functions & Subroutines =
 
 == SNMP_API_STAT_CODES begin() ==
-The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  See Returns section for function return information.
+The begin function initializes the Agent and should be placed in the "setup()" function of the implementation sketch file.  This function sets the Agent to default values for the Get (public) and Set (private) Community Names, and 161 for the port to process incoming requests.  
+
+See Returns section for function return information.
 
 === Arguments ===
 None.
@@ -63,7 +65,11 @@ None.
 See SNMP_API_STAT_CODES enumerator for additional information.
 
 == SNMP_API_STAT_CODES begin(char `*`getCommName, char `*`setCommName, uint16_t port) ==
-The begin function initializes the Agent based on supplied arguments and should be placed in the "setup()" function of the implementation sketch file.  See Arguments section for argument definitions.  See Returns section for function return information.
+The begin function initializes the Agent based on supplied arguments and should be placed in the "setup()" subroutine of the implementation sketch file.  
+
+See Arguments section for argument definitions.  
+
+See Returns section for function return information.
 
 === Arguments ===
 
@@ -80,11 +86,24 @@ Agent's port to accept incoming requests.
 See SNMP_API_STAT_CODES enumerator for additional information.
 
 == void listen(void) ==
+The listen subroutine executes a delegate subroutine (pointer to a subroutine) when the Ethernet detects a byte in the receive buffer.  The listen subroutine should be placed in the "loop()" subroutine of the implementation sketch file.
+
+See onPduReceive subroutine for additional information on delegate subroutine implementation.
 
 == SNMP_API_STAT_CODES requestPdu(SNMP_PDU `*`pdu) ==
+=== Arguments ===
+==== pdu ====
+=== Returns ===
 
 == SNMP_API_STAT_CODES responsePdu(SNMP_PDU `*`pdu) ==
+=== Arguments ===
+==== pdu ====
+=== Returns ===
 
 == void onPduReceive(onPduReceiveCallback pduReceived) ==
+=== Arguments ===
+==== pduReceived ====
 
 == void freePdu(SNMP_PDU `*`pdu) ==
+=== Arguments ===
+==== pdu ====
