@@ -5,4 +5,4 @@ Before getting started with Agentuino it is recommended to familiarize yourself 
 http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
 
 
-To understand the low level structure of an SNMP packet, read up on [http://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One ASN.1] and the [http://en.wikipedia.org/wiki/Basic_Encoding_Rules BER] encoding of ASN.1 .
+To understand the low level structure of an SNMP packet, read up on [http://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One ASN.1] and the [http://en.wikipedia.org/wiki/Basic_Encoding_Rules BER] encoding of ASN.1 .  [http://tools.ietf.org/html/rfc1906#section-8 Section 8 of RFC1906], which places a few additional SNMP specific constraints on BER encoding, will also be of interest
