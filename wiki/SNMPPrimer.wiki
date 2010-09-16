@@ -5,6 +5,4 @@ Before getting started with Agentuino it is recommended to familiarize yourself 
 http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol
 
 
-To understand the structure of an SNMP packet, read up on Abstract Syntax Notation One
-
-http://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One.
+To understand the low level structure of an SNMP packet, read up on [http://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One ASN.1] and the [http://en.wikipedia.org/wiki/Basic_Encoding_Rules BER] encoding of ASN.1 .
